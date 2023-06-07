@@ -1,0 +1,35 @@
+2023-06-07T13:04:44+00:00
+Running ./build/bench
+Run on (16 X 1995.31 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x16)
+  L1 Instruction 32 KiB (x16)
+  L2 Unified 4096 KiB (x8)
+  L3 Unified 16384 KiB (x1)
+Load Average: 0.78, 1.01, 0.50
+name,iterations,real_time,cpu_time,time_unit,bytes_per_second,items_per_second,label,error_occurred,error_message
+"BM_generate/2",176215,3936.89,3936.69,ns,,,,,
+"BM_generate/8",170848,4085.42,4085.28,ns,,,,,
+"BM_generate/64",45319,15260.5,15259.9,ns,,,,,
+"BM_generate/512",928,729155,729109,ns,,,,,
+"BM_generate/1024",233,2.96577e+06,2.96559e+06,ns,,,,,
+"BM_naive/2",87072,7935.44,7934.93,ns,,,,,
+"BM_naive/8",79476,8577.99,8577.66,ns,,,,,
+"BM_naive/64",2649,261062,261044,ns,,,,,
+"BM_naive/512",4,1.96785e+08,1.96781e+08,ns,,,,,
+"BM_naive/1024",1,3.72816e+09,3.72798e+09,ns,,,,,
+"BM_mt/2",19375,43854.2,35749.1,ns,,,,,
+"BM_mt/8",4573,159499,156027,ns,,,,,
+"BM_mt/64",1922,371775,361011,ns,,,,,
+"BM_mt/512",266,2.18773e+07,2.51931e+06,ns,,,,,
+"BM_mt/1024",10,3.40214e+08,7.05852e+06,ns,,,,,
+"BM_simd/4",11479,67420.9,60144.6,ns,,,,,
+"BM_simd/8",4543,156738,152317,ns,,,,,
+"BM_simd/64",2034,352698,345458,ns,,,,,
+"BM_simd/512",309,8.50319e+06,2.24614e+06,ns,,,,,
+"BM_simd/1024",95,4.44948e+07,7.39111e+06,ns,,,,,
+"BM_better/2",87452,7750.43,7750.16,ns,,,,,
+"BM_better/8",84429,8349.22,8349.01,ns,,,,,
+"BM_better/64",13138,54353.5,54351.1,ns,,,,,
+"BM_better/512",42,1.66124e+07,1.6612e+07,ns,,,,,
+"BM_better/1024",4,1.83379e+08,1.83372e+08,ns,,,,,
